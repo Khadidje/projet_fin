@@ -185,8 +185,7 @@ from sklearn.metrics import classification_report
 print(classification_report(y_valid, predictions))
 
 model.evaluate(X_valid, y_valid)
-
-!pip install scikit-learn
+#pip install scikit-learn
 
 !pip install scikeras
 
